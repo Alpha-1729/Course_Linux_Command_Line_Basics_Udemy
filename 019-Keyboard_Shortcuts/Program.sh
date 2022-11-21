@@ -23,7 +23,28 @@
 # To move to the previous character in the command.
 # Use Ctrl + B, It is same as the left arro key.
 
+# To move to the next word.
+# Use Alt + F
 
+# To move to the previous word.
+# Use Alt + B
 
+# To change the word to upper case.
+# Use Alt + U
+
+# TO change the word to lower case.
+# Use ALt + L
+
+# To cut the text from current position to the end.
+# Use Ctrl + K
+
+# To paste the cut text.
+# Use Ctrl + Y
+
+# To cut the text from current position to the start.
+# Use Ctrl + U
+
+# Shortcut for clearing the terminal.
+# Use Ctrl + L
 
 echo "Hello World"
