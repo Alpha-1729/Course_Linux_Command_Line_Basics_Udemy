@@ -1,5 +1,5 @@
 #!/bin/bash
-# Graphical Text Editor - Gedit
+# Graphical Text Editor-Gedit
 
 :'
 >>>> Gedit is a graphical text editor for Gnome Desktop.
