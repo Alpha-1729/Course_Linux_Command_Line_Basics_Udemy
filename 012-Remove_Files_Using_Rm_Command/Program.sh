@@ -21,7 +21,7 @@ rm -r folderName
 
 # Ask confirmation before deleting a file.
 # -i interative
-rm -i fileName    # Press y to delete, and n to not delete.
+rm -i fileName # Press y to delete, and n to not delete.
 
 # Ask confirmation defore deleting all individual files and sub-folders in a folder.
 # Type y, if you want to delete file and Type n, to not delete.

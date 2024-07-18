@@ -17,8 +17,8 @@ ls
 
 # Change directory.
 cd Desktop
-cd /    # Change directory to root directory.
-cd ~    # Change directory to home directory.
-cd ..    # Go to parent directory.
-cd -     # Go the previous directory.
+cd /  # Change directory to root directory.
+cd ~  # Change directory to home directory.
+cd .. # Go to parent directory.
+cd -  # Go the previous directory.
 echo "Hello World"

@@ -5,12 +5,12 @@
 >>>> The linux file system has tree like structure.
 >>>> In linux folders are referred to as directories.
 >>>> Linux File System.
-        /  -> Root directory.
-            bin(binary)
+            / (Root directory)
+            bin (binary)
                 This directory contains executable programs and commands that can be used by all the users on the system.
-            opt(optional)
+            opt (optional)
                 This directory contains commercial software products that are not installed by default on your system like Chrome.
-            tmp(temporary)
+            tmp (temporary)
                 In this directory you will find temporary files, files that are often changed or deleted.
             var
                 It contains variable data that frequently changes over time.

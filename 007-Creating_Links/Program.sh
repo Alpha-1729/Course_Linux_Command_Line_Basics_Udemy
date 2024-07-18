@@ -18,14 +18,15 @@ ls -i /
 ls -l
 
 # To create a hard link of a file.
-ln original.txt hardlink1   # ln -> link
-ln original.txt hardlink2
+# ln means link
+ln original.txt hardLink1
+ln original.txt hardLink2
 
 # Create a soft link of a file.
-ln -s original.txt softlink1
-ln -s original.txt softlink2
+ln -s original.txt softLink1
+ln -s original.txt softLink2
 
 # Create a soft link of a directory.
-ln -s Directory1 SoftDir1
+ln -s directory1 softDir1
 
 echo "Hello World"

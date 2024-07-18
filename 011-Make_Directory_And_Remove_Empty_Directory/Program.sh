@@ -9,15 +9,15 @@
 '
 
 # Create a new directory.
-mkdir NewFolder
+mkdir newFolder
 
 # Create multiple directories.
-mkdir dirname1 dirname2 dirname3
+mkdir dirName1 dirName2 dirName3
 
 # Remove directory.
-rmdir NewFolder
+rmdir newFolder
 
 # Remove multiple directories.
-rmdir dirname1 dirname2 dirname3
+rmdir dirName1 dirName2 dirName3
 
 echo "Hello World"

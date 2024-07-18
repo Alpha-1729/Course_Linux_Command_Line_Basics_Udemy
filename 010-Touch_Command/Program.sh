@@ -8,15 +8,15 @@
 >>>>
 '
 # Change the timestamp of the file to current timestamp.
-touch filename
+touch fileName
 
 # Change the timestamp of the multiple file to current timestamp.
-touch filename1 filename2
+touch fileName1 fileName2
 
 # Create a new file.
-touch filename
+touch fileName
 
 # Create multiple new files.
-touch filename1 filename2
+touch fileName1 fileName2
 
 echo "Hello World"
