@@ -13,7 +13,7 @@
             tmp(temporary)
                 In this directory you will find temporary files, files that are often changed or deleted.
             var
-                It contains variable data data that frequently changes over time.
+                It contains variable data that frequently changes over time.
                 These include log files, mail spools and other databases.
             home
                 A user can store anything in his home directory.

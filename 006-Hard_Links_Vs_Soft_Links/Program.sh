@@ -13,7 +13,7 @@
             File Type
             Number of Links Etc.
 
->>>> There ar etwo type of links in linux.
+>>>> There are two type of links in linux.
         Soft Link:
             It a pointer to the original file.
             It has less file size than the original file.
