@@ -1,46 +1,47 @@
 #!/bin/bash
-# Ls Command Options
+# LS Command Options
 
-:'
+: '
 >>>>
 >>>>
 >>>>
 >>>>
 '
 
-# To show the Inode number of the files in the directory.
+# To display the inode number of the files in the directory.
 ls -i
 
-# To show more information about files.
-# The first letter in the ls -l will show the file type.
-# - means file.
-# l means link
-# d means directory
+# To display more information about files.
+# The first character in the output of ls -l indicates the file type:
+# -  : regular file
+# l  : symbolic link
+# d  : directory
 ls -l
 
-# Infromation about the ls -l
-#    drwxrwxrwx                  1             root                  root                       4096         Nov 14 23:32           NewFolder
-# (file permission)     (no of hard links)     owner        (group assigned to file)        (file size)     (created date)      (folder/filename)
+# Detailed breakdown of the ls -l output:
+#   drwxrwxrwx     1     root    root    4096  Nov 14 23:32    NewFolder
+# (permissions) (links) (owner) (group) (size)   (date)         (name)
 
-# To show the all files including the hidden files.
-# All files that starts with the dot will be hidden files in the linux.
+# To display all files, including hidden files.
+# Files that start with a dot (.) are hidden in Linux.
 ls -a
 
-# To show the files based on the modified date of the files.
+# To display files sorted by the last modification date.
 ls -t
 
-# To show the files in the reverse order as compared to the ls.
-ls -r # sort order will be opposite to the normal ls.
+# To display files in reverse order.
+ls -r # The sort order will be opposite to the normal ls output.
 
-# To show all files and folders in folder recursively.
+# To display all files and directories recursively.
 ls -R
 
-# Combining two options in ls command.
+# To combine multiple options in the ls command.
 ls -i -l -a
 # OR
 ls -ila
 
-# To show the files in reverse order of modification date.
+# To display files in reverse order of their modification date.
+# Oldest first and newest last.
 ls -t -r
 # OR
 ls -tr

@@ -1,13 +1,11 @@
 #!/bin/bash
 # Directory Loop
 
-:'
+: '
 >>>> I have a folder named A.
-        In the directory A, I created a link B to the parent directory A.
-        Then I change directory between link and parent directory.
->>>> The screenshot of the directory looping is added in the folder. See the image.
->>>>
->>>>
+     Inside directory A, I created a symbolic link B pointing to the parent directory of A.
+     Then I repeatedly changed directories between the link (B) and the original directory (A).
+>>>> The screenshot of the directory loop is included in the folder. See the image.
 '
 cd A
 ln -s .. B
