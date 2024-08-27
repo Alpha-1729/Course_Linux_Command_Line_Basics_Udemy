@@ -10,15 +10,15 @@
             File Size
             Owner Information
             Permissions
-            File Type
+            File Type 
             Number of Links Etc.
 
 >>>> There are two type of links in linux.
         Soft Link:
-            It a pointer to the original file.
-            It has less file size than the original file.
             Same like shortcut in windows.
             It is also known as symbolic link.
+            It a pointer to the original file.
+            It has less file size than the original file.
             Inode number of the soft link is different from the Inode number of original file.
             If we delete the original file, the soft link will become useless.
         Hard Link:
