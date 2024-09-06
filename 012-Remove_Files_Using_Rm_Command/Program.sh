@@ -9,10 +9,11 @@
 '
 
 # Remove file.
+# It will show warning if file not exist.
 rm fileName
 
 # Remove multiple files.
-rm file1 file2 file3
+rm fileName1 fileName2 fileName3
 
 # Remove non-empty directories.
 rm -R folderName
@@ -24,11 +25,11 @@ rm -r folderName
 rm -i fileName # Press y to delete, and n to not delete.
 
 # Ask confirmation defore deleting all individual files and sub-folders in a folder.
-# Type y, if you want to delete file and Type n, to not delete.
+# Type y, if you want to delete file and type n, to not delete.
 rm -Ri folderName
 
 # Forcefully delete files without any message.
-# It will show any error message if file not exists.
+# If the file not exist, it will not show any message.
 rm -f file1
 
 # Show verbose message of the file being deleted.
