@@ -9,22 +9,21 @@
 '
 
 # Copy a file.
-# Create a copy of the file1 and name it as file2.
-# file2 is created only if it is not already there.
-# If file2 is already there, it will be overwritten witht the contents of the file1.
+# Creates a copy of 'file1' named 'file2'.
+# If 'file2' exists, it will be overwritten; otherwise, it will be created.
 cp file1 file2
 
-# Copying multiple files into the folder.
+# Copy multiple files into a folder.
 cp file1 file2 file3 destinationFolderName
 
-# Copying folder into another folder.
+# Copy a folder into another folder.
 cp -R sourceFolderName destinationFolderName
 
-# ASk for confirmation before overwriting the files while copying.
-# If the same files already exist in the destination folder.
+# Ask for confirmation before overwriting files during copy.
+# Reply with 'y' or 'n'.
 cp -i file1 file2 folderName
 
-# Show the summary using the verbose option.
+# Show a summary with verbose option when copying folders.
 cp -Rv folder1 folder2
 
 echo "Hello World"

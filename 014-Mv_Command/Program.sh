@@ -8,22 +8,22 @@
 >>>>
 '
 
-# Rename file name.
+# Rename a file.
 mv oldFileName newFileName
 
-# Hide file.
+# Hide a file by adding a dot prefix.
 mv oldFileName .oldFileName
 
-# Moving multiple files.
+# Move multiple files to a folder.
 mv file1 file2 file3 destinationFolderName
 
-# Rename directories.
+# Rename a directory.
 mv directoryName newName
 
-# Move directory to another directory.
+# Move a directory into another directory.
 mv sourceDirectoryName destinationDirectoryName
 
-# Ask confirmation before moving files.
+# Prompt for confirmation before moving files.
 mv -i fileName destinationFolderName
 
 echo "Hello World"
