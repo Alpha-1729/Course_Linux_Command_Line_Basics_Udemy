@@ -1,6 +1,5 @@
 #!/bin/bash
 # Keyboard Shortcuts
-
 :'
 >>>>
 >>>>
@@ -8,43 +7,43 @@
 >>>>
 '
 
-# To move to the first character in the command in the terminal.
+# Move the cursor to the beginning of the command line.
 # Use Ctrl + A
 
-# To move to the last character in the command in the terminal.
+# Move the cursor to the end of the command line.
 # Use Ctrl + E
 
-# To delete the character at the cursor location.
+# Delete the character at the cursor position.
 # Use Ctrl + D
 
-# To move to the next character in the command.
-# Use Ctrl + F, It is same as the right arrow key.
+# Move the cursor to the next character.
+# Use Ctrl + F (same as the right arrow key).
 
-# To move to the previous character in the command.
-# Use Ctrl + B, It is same as the left arro key.
+# Move the cursor to the previous character.
+# Use Ctrl + B (same as the left arrow key).
 
-# To move to the next word.
+# Move the cursor to the next word.
 # Use Alt + F
 
-# To move to the previous word.
+# Move the cursor to the previous word.
 # Use Alt + B
 
-# To change the word to upper case.
+# Change the current word to uppercase.
 # Use Alt + U
 
-# TO change the word to lower case.
-# Use ALt + L
+# Change the current word to lowercase.
+# Use Alt + L
 
-# To cut the text from current position to the end.
+# Cut text from the cursor to the end of the line.
 # Use Ctrl + K
 
-# To paste the cut text.
+# Paste the previously cut text.
 # Use Ctrl + Y
 
-# To cut the text from current position to the start.
+# Cut text from the cursor to the beginning of the line.
 # Use Ctrl + U
 
-# Shortcut for clearing the terminal.
+# Clear the terminal screen.
 # Use Ctrl + L
 
 echo "Hello World"

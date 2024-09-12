@@ -7,15 +7,18 @@
 >>>>
 >>>>
 '
-# Create a directory with spaces in between.
+
+# Create a directory with spaces in its name.
 mkdir 'Hello World'
 # OR
 mkdir "Hello World"
 # OR
-# You have to add backslash before each spaces to escape them.
+# Use backslashes to escape spaces.
 mkdir Hello\ World
+# For directories with multiple spaces.
+mkdir Hello\ \ World
 
-# Removing directories with spaces in the directory name.
+# Remove directories with spaces in their names.
 rmdir "Hello World"
 rmdir 'Hello World'
 rmdir Hello\ World

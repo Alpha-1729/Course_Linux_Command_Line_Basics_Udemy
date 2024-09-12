@@ -2,19 +2,19 @@
 # Graphical Text Editor-Gedit
 
 :'
->>>> Gedit is a graphical text editor for Gnome Desktop.
+>>>> Gedit is a graphical text editor designed for the GNOME desktop environment.
 >>>>
 >>>>
 >>>>
 '
 
-# Opening the text editor.
+# Open the Gedit text editor.
 gedit
 
-# Opening a file in gedit.
-gedit filenName
+# Open a specific file in Gedit.
+gedit fileName
 
-# Creating a new file in gedit.
+# Create a new file in Gedit.
 gedit newFileName
 
 echo "Hello World"

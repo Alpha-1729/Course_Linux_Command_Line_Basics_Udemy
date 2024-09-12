@@ -2,26 +2,27 @@
 # Command Line History
 
 :'
->>>> Use up arrow key in the command line to get the previously typed commands.
-        This way you can get the last 500 commands in the most linux distros.
+>>>> Use the up arrow key in the terminal to scroll through previously typed commands.
+        Most Linux distributions store the last 500 commands by default.
 >>>>
 >>>>
 >>>>
 '
 
-# To view all the previously typed commands.
-history   # It will show the history along with a number.
+# View the history of all previously typed commands.
+history # Displays a numbered list of commands.
 
-# To execute the command from the history.
+# Execute a command from the history using its number.
 !commandNo
 
-# To show the last 10 history.
+# Show the last 10 commands from the history.
 history 10
 
-# Edit the history file.
-# You can manually add more commands to the history file.
+# Edit the history file manually.
+# You can add or modify commands in the history file, but changes need to be reloaded.
 nano ~/.bash_history
 
-# Clearing the history.
+# Clear the entire command history.
 history -c
+
 echo "Hello World"

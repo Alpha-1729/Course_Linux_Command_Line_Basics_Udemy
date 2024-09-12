@@ -8,21 +8,22 @@
 >>>>
 '
 
-# Using semicolon method.
-# Semicolon ignores the invalid command and execute the next command.
+# Using the semicolon method.
+# Semicolons separate commands, allowing them to run sequentially regardless of errors in previous commands.
 date; cal; echo "Hello world";
 
-# After executing the command, you can exit the terminal.
+# You can use semicolons to chain commands, but the terminal will exit after the final command.
 mkdir Hello1; date; exit;
 
-# Other commands after the exit command will not work.
+# Commands after the exit command will not execute.
 date; exit; mkdir Hello2
 
-# Using double ampersand (&&) method.
+# Using the double ampersand (&&) method.
+# Commands are executed sequentially only if the previous command succeeds.
 date && cal && mkdir Hello
 
-# Double ampersand method work on the princle of Close Circuit Evaluation.
-# Once it encountered an error, It will stop working.
+# The double ampersand method works on the principle of short-circuit evaluation.
+# If an error occurs, execution of subsequent commands will stop.
 CAL && date && mkdir Hello
 
 echo "Hello World"

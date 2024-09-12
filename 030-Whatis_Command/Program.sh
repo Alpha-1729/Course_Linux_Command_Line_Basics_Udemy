@@ -2,15 +2,15 @@
 # Whatis Command
 
 :'
->>>> whatis command show a brief description of a executable command.
-        whatis -> display one-line manual page descriptions.
-        whatis command doesnot work with shell builtin commands.
+>>>> The `whatis` command shows a brief description of an executable command.
+        `whatis` -> Displays one-line manual page descriptions.
+        The `whatis` command does not work with shell builtins.
 >>>>
 >>>>
 >>>>
 '
 
-# To get brief description of a executable command.
+# Get a brief description of an executable command.
 whatis cp
 whatis ls
 

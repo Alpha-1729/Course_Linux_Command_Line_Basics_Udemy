@@ -2,18 +2,19 @@
 # Auto Complete
 
 :'
->>>> Press the tab key to autocomplete the directory name and the file name.
+>>>> Press the Tab key to autocomplete directory and file names.
 >>>>
 >>>>
 >>>>
 '
 
-# To show all the files and folder in a directory.
-ls <tab> <tab> # Press the tab key twice.
+# List all files and folders in the current directory.
+ls # Press the Tab key twice to autocomplete or list options.
 
-# To show all the directory.
-cd <tab> <tab> # Press the tab key twice.
+# Autocomplete directory names when changing directories.
+cd # Press the Tab key twice to autocomplete directory names.
 
-# To display all the options available with a command in linux.
-rm -- <tab> <tab>  # It will show all the options that can be used the rm command.
+# Display all available options for a command in Linux.
+rm -- # Press the Tab key twice to see options for the rm command.
+
 echo "Hello World"

@@ -2,18 +2,18 @@
 # File Command
 
 :'
->>>> File names in linux are case sensitive.
->>>> Extension in a file in linux has no meaning.
-        File works with or without the extension.
+>>>> In Linux, file names are case-sensitive.
+>>>> File extensions in Linux are not significant.
+        A file will function regardless of its extension.
 >>>>
 >>>>
 '
 
-# Determine the filetype in linux.
-# I will show some info about the file like image-size, file-type etc.
+# Determine the file type in Linux.
+# This command displays information about the file, such as image size and file type.
 file fileName
 
-# Show the information of more files.
+# Display information for additional files.
 file file1 file2 file3
 
 echo "Hello World"

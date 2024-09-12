@@ -2,27 +2,30 @@
 # Wc Command
 
 :'
->>>> wc -> word count
+>>>> wc -> word count utility to count lines, words, and characters in a file.
 >>>>
 >>>>
 >>>>
 '
 
-# Usage.
+# View the word count, line count, and character size of a file.
 wc fileName
-# Output will be like this.
-# 1 (Line Count) 6 (Word Count) 28 (Character size in bytes) fileName
+# Output format:
+# Line Count | Word Count | Character Size (bytes) | fileName
 
-# To show the line count.
+# Display only the line count.
 wc -l fileName
 
-# To show the word count.
+# Display only the word count.
 wc -w fileName
 
-# To show the character size.
+# Display the character size in bytes.
 wc -c fileName
+# OR
+# Check the file size using ls.
+ls -l fileName
 
-# To show the number of character in the longest line.
+# Display the number of characters in the longest line.
 wc -L fileName
 
 echo "Hello World"

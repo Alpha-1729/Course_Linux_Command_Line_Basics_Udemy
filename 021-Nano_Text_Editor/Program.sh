@@ -2,29 +2,32 @@
 # Nano Text Editor
 
 :'
->>>> Nano is a command line text editor.
+>>>> Nano is a command-line text editor.
 >>>>
 >>>>
 >>>>
 '
 
-# Open a file.
+# Open a file in Nano.
 nano fileName
 
-# Keyboard short for nani editor.
-# After opening a file, in the bottom, there are some shortcut like ^X.
-# ^ indicates that these keys should be used with the Ctrl key.
+# Keyboard shortcuts for Nano editor:
+# At the bottom of the editor, shortcuts like ^X are displayed.
+# The ^ symbol indicates that these keys should be used with the Ctrl key.
 
-# Cut text
-# Ctrl + K  -> To cut the curren line in which cursor is located.
+# Get help.
+# Ctrl + G
 
-# Paste text.
+# Cut the current line where the cursor is located.
+# Ctrl + K
+
+# Paste the cut text.
 # Ctrl + U
 
-# Find text.
-# Ctrl + W, Search for the word and click ok.
+# Find text in the file.
+# Ctrl + W, then search for the word and press Enter.
 
 # Save the file after editing.
-# Ctrl + O, Add the file name and click Enter.
+# Ctrl + O, then specify the file name and press Enter.
 
 echo "Hello World"
