@@ -2,15 +2,15 @@
 # Alias-1
 
 :'
->>>> Before creating our own commands, make sure that this command is not already in the system.
-        Use "type yourNewCommandName" in the terminal.
+>>>> Before creating your own command, check if it already exists in the system.
+        Use "type yourNewCommandName" in the terminal to verify.
 >>>>
 >>>>
 >>>>
 '
 
-# Creating a new command using alias.
-alias newCommandName="cd Desktop; mkdir Hello; touch hello.txt;"    # There is whitespace before and after the equal sign.
-newCommandName    # Calling the command.
+# Create a new command using alias.
+alias newCommandName="cd Desktop; mkdir Hello; touch hello.txt;" # Ensure there are no spaces around the equal sign.
+newCommandName                                                   # Execute the new command.
 
 echo "Hello World"
