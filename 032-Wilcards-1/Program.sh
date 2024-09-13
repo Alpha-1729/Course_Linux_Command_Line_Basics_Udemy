@@ -2,21 +2,27 @@
 # Wilcards-1
 
 :'
->>>> Wildcard is a symbol that represents one or more characters.
-        * -> Represents any character.
+>>>> A wildcard is a symbol that represents one or more characters.
+        * -> Represents any number of characters.
         ? -> Represents a single character.
 >>>>
 >>>>
 >>>>
 '
 
-# Copying all file into a folder.
+# Copy all files to a folder.
 cp * destinationDirectory
 
-# Copy all files starting with "file" into a folder.
+# Remove all files.
+rm *
+
+# Copy all files starting with "file" to a folder.
 cp file* destinationDirectory
 
-#  Copy all file starts with 'file' and a character after that.
+# Copy all files starting with "n" and ending with "e" to a folder.
+cp n*e destinationDirectory
+
+# Copy all files starting with "file" and followed by exactly one character with a .txt extension.
 cp file?.txt destinationDirectory
 
 echo "Hello World"
