@@ -1,1 +1,1 @@
-{"x_coordinate": 41, "y_coordinate": 1157, "folder_number": 37}
+{"coordinate": {"x": 1387, "y": 267}, "grid": {"length": 108, "breadth": 64}, "button": {"length": 28, "breadth": 32}, "section": {"prefix": "", "number": 7, "latest": "006-Echo_Congrats_On_Finishing_The_Course"}, "template": {"prefix": "", "number": 1, "section": "001-Introduction_To_The_Command_Line", "latest": "001-Working_With_Files", "pre-run-command": ""}, "run-command": ""}

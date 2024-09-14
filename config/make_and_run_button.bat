@@ -1,2 +1,0 @@
-python make_and_run_button.py
-exit
