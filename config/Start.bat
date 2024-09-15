@@ -1,7 +1,5 @@
 @ECHO OFF
 
-CD scripts
-
-python start.py
+python templater.py
 
 PAUSE

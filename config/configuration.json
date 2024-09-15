@@ -1,0 +1,46 @@
+{
+    "scripts": [
+        {
+            "command": "t",
+            "description": "Create Template",
+            "path": "./scripts/create_template.py",
+            "type": "python",
+            "platform": "*"
+        },
+        {
+            "command": "s",
+            "description": "Create Section",
+            "path": "./scripts/create_section.py",
+            "type": "python",
+            "platform": "*"
+        },
+        {
+            "command": "ec",
+            "description": "Execute Current Code",
+            "path": "./scripts/execute_code.py",
+            "type": "python",
+            "platform": "*"
+        },
+        {
+            "command": "eo",
+            "description": "Execute Other Code",
+            "path": "./scripts/execute_other_code.py",
+            "type": "python",
+            "platform": "*"
+        },
+        {
+            "command": "add-gitkeep",
+            "description": "Add .gitkeep to empty directories",
+            "path": "./scripts/gitkeep_adder.py",
+            "type": "python",
+            "platform": "*"
+        },
+        {
+            "command": "rm-gitkeep",
+            "description": "Remove .gitkeep from non-empty directories",
+            "path": "./scripts/gitkeep_remover.py",
+            "type": "python",
+            "platform": "*"
+        }
+    ]
+}

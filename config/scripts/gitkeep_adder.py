@@ -9,12 +9,11 @@ os.chdir(Path(__file__).parents[2])
 
 # List all dir and avoid the .git dir and config folder.
 dir_list = list(filter(os.path.isdir, os.listdir()))
-dir_list.remove('.git')
-dir_list.remove('config')
+dir_list.remove(".git")
 
 # Create .gitkeep file in all empty directories.
 for directory in dir_list:
     for root, dirs, files in os.walk(directory):
         if not os.listdir(root):
-            gitkeep_file_path = os.path.join(root, '.gitkeep')
-            open(gitkeep_file_path, 'w').close()
+            gitkeep_file_path = os.path.join(root, ".gitkeep")
+            open(gitkeep_file_path, "w").close()
