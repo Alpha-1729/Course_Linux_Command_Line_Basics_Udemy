@@ -23,7 +23,7 @@ ln original.txt hardLink1
 ln original.txt hardLink2
 
 # Create a soft link of a file.
-# Will have same inode number that of parent.
+# Will not have same inode number that of parent.
 ln -s original.txt softLink1
 ln -s original.txt softLink2
 

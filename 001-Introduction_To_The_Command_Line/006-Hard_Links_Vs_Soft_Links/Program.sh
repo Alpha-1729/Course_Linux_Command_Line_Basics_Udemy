@@ -22,7 +22,7 @@
             Inode number of the soft link is different from the Inode number of original file.
             If we delete the original file, the soft link will become useless.
         Hard Link:
-            Hard link is basically a diferent name of the same file.
+            Hard link is basically a different name of the same file.
             It has same file size as that of original file.
             Same Inode number.
             Deleting the original file will not affect the hard links.

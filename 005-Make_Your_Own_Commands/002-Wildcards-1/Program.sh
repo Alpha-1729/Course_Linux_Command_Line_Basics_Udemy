@@ -1,5 +1,5 @@
 #!/bin/bash
-# Wilcards-1
+# Wildcards-1
 
 :'
 >>>> A wildcard is a symbol that represents one or more characters.

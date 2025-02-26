@@ -9,7 +9,7 @@
 '
 
 # Write the first 1000 numbers to a file.
-for ((i = 1; i <= 1000; i++)); do echo $i >>Thousand.txt; done
+for ((i = 1; i <= 1000; i++)); do echo $i >> Thousand.txt; done
 
 # Show the first 10 lines of the file.
 head fileName

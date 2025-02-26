@@ -2,7 +2,7 @@
 # Open The Terminal
 
 :'
->>>> Shorcut to open the terminal in linux (Ubuntu).
+>>>> Shortcut to open the terminal in linux (Ubuntu).
         Ctrl + Alt + T
 >>>>
 >>>>
